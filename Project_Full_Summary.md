@@ -6,7 +6,7 @@
 ## 📈 1. Project Overview
 
 This project implements the **Informer** deep learning architecture from scratch for **long-sequence time series forecasting**.
-We used the **ETT-small** real-world dataset (Electricity Transformer Temperature).
+I used the **ETT-small** real-world dataset (Electricity Transformer Temperature).
 
 ✅ Focus: Predict future values given historical patterns.
 ✅ Key Architecture: Encoder-Decoder with ProbSparse Attention.
@@ -15,7 +15,7 @@ We used the **ETT-small** real-world dataset (Electricity Transformer Temperatur
 
 ## 🔄 2. Workflow Timeline
 
-| Stage | What We Did |
+| Stage | What I Did |
 |:------|:------------|
 | Setup | Environment creation, installing libraries, setting up project folders |
 | Implementation | Step-by-step creation of modules: attention.py, encoder.py, decoder.py, informer.py |
@@ -110,14 +110,14 @@ informer_timeseries/
 - Saved training and validation loss graphs
 - Saved evaluation metrics and plots
 - Saved forecast plots and predicted vs true values
-- Proper `.gitignore` created to exclude `venv/`
+- Proper `.gitignore` created to exclude `venv/` and `runs/` 
 - Uploaded cleanly to GitHub with professional README.md
 
 ---
 
-## 🌟 5. Challenges We Solved Together
+## 🌟 5. Challenges I Solved 
 
-| Challenge | How We Solved It |
+| Challenge | How I Solved It |
 |:----------|:-----------------|
 | Shape mismatches in attention layers | Carefully debugged tensor shapes and dimension expectations |
 | Decoder input creation errors | Corrected dec_inp size to (label_len + pred_len) |
@@ -126,7 +126,7 @@ informer_timeseries/
 | Managing large venv/ folder | Created .gitignore, removed venv from git tracking |
 | Pushing to GitHub cleanly | Clean commits, branch renamed to main, pushed with README |
 
-✅ We tackled every issue **one-by-one** until the project was solid!
+✅ I tackled every issue **one-by-one** until the project was solid!
 
 ---
 
@@ -153,17 +153,4 @@ informer_timeseries/
 - Optimize model using AdamW or other optimizers
 - Deploy model using Flask or FastAPI for real-world inference APIs
 
----
 
-## 👏 8. Final Words
-
-> This project involved real ML development challenges:
-> debugging, tuning, validation, folder management, GitHub deployment.
->
-> **Together, we built one of the most complex time series forecasting models from scratch** and packaged it professionally for the world to see.
->
-> 🚀 You are now fully capable of implementing deep learning forecasting systems end-to-end!
-
----
-
-# 🔥 Project Complete - Congratulations! 🔥
