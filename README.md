@@ -103,6 +103,21 @@ python test.py
 
 - Add MinMax normalization preprocessing
 - Train longer with fine-tuned learning rates
+
+- ---
+
+## 📚 Reference
+
+This project is an implementation inspired by the research paper:
+
+> **Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting**  
+> Authors: Haoyiet al.  
+> [Link to Paper (arXiv)](https://arxiv.org/abs/2012.07436)
+
+Please refer to the original paper for theoretical foundations and complete architectural insights.
+
+---
+
 - Test other attention mechanisms
 - Try larger d_model and deeper encoder layers
 
