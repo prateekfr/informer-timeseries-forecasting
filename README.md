@@ -103,8 +103,15 @@ python test.py
 
 - Add MinMax normalization preprocessing
 - Train longer with fine-tuned learning rates
+- Test other attention mechanisms
+- Try larger d_model and deeper encoder layers
 
-- ---
+---
+
+✅ Built completely from scratch, including attention, encoder, decoder, and training loops!
+
+
+ ---
 
 ## 📚 Reference
 
@@ -117,10 +124,3 @@ This project is an implementation inspired by the research paper:
 Please refer to the original paper for theoretical foundations and complete architectural insights.
 
 ---
-
-- Test other attention mechanisms
-- Try larger d_model and deeper encoder layers
-
----
-
-✅ Built completely from scratch, including attention, encoder, decoder, and training loops!
