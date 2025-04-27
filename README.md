@@ -78,6 +78,10 @@ informer_timeseries/
 ```bash
 pip install -r requirements.txt
 ```
+> ⚡ For GPU acceleration, install torch with CUDA version matching your GPU(which i did). Example for CUDA 11.8:
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
 2. Train model:
 
